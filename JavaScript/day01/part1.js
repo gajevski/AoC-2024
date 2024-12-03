@@ -1,6 +1,5 @@
 const fs = require('fs');
 
-
 function solve() {
   const filePath = "./input.txt";
   const lines = fs.readFileSync(filePath, 'utf-8').trim().split('\r\n');
